@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Recommended() {
+function RecommendedMovies() {
   return (
     <div>
         <div class="container">
@@ -48,4 +48,4 @@ function Recommended() {
   )
 }
 
-export default Recommended
+export default RecommendedMovies

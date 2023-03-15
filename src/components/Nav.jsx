@@ -9,22 +9,17 @@ function Nav() {
         <h1 className='nav__title'>Streamz</h1>
         <ul class="nav__links">
           <li class="nav__link">
-            <a href="/" class="nav__link--anchor link__hover-effect">
+            <Link to="/" class="nav__link--anchor link__hover-effect">
               Home
-            </a>
+            </Link>
           </li>
           <li class="nav__link">
-            <a
-              href="/movies"
+            <Link
+              to="/movies"
               class="nav__link--anchor link__hover-effect"
             >
               Movies
-            </a>
-          </li>
-          <li class="nav__link">
-            <a href="/tvshows" class="nav__link--anchor link__hover-effect">
-              TV Shows
-            </a>
+            </Link>
           </li>
         </ul>
       </div>

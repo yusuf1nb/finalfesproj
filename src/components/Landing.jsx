@@ -11,13 +11,7 @@ function Landing() {
           <p class="header__para">
             Over 3000 movie and tv shows to enjoy, all you need to is grab some
             popcorn :
-          </p>{" "}
-          <input
-            type="text"
-            placeholder="Search Title"
-            class="header__search"
-            onchange="onSearchChange(event)"
-          />
+          </p>
           <figure class="header__img--wrapper">
             <img src="./assests/undraw_home_cinema_l7yl.svg" alt="" />
           </figure>
